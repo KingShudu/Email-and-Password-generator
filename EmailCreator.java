@@ -75,7 +75,7 @@ public class EmailCreator {
 	
 	public String getWorkMail()
 	{
-		workMail = getFirstname()+"."+getLastname()+"."+"@"+getDepartment()+"."+
+		workMail = getFirstname()+"."+getLastname()+"@"+getDepartment()+"."+
 				getCompanyName()+".com";
 		
 		return workMail;
