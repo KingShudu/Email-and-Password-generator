@@ -111,7 +111,7 @@ public class EmailCreator {
 				
 			} 
 			
-			newPassword[i] = charactersToUseInArray[randomNumber];
+			newPassword[i] = charactersToUseInArray[randomNumber-1];
 			generatedPassword = String.join("", newPassword);
 		}
 		
