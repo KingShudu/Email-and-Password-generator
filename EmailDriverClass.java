@@ -35,7 +35,7 @@ public class EmailDriverClass {
 											"Email: \t"+obj1.getPersonalEmail()+"\n"+
 											"Work mail: \t"+obj1.getWorkMail()+"\n"+
 											"Password: \t"+"**************"+"\n"+
-											"Mail Capacity: \t"+obj1.mailBoxCapacity
+											"Mail Capacity: \t"+obj1.mailBoxCapacity +"GB"
 		,"Here are your full credentials", JOptionPane.INFORMATION_MESSAGE);
 		
 	}
